@@ -9,5 +9,6 @@ def dictgen(*args) :
         cont += 1
     return simpledict
 
+# Use example
 mydict = dictgen('Abc', 12, ['Abcde', 0], 'Mark')
 print(mydict)
